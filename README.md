@@ -14,9 +14,8 @@ It provides 3 targeted functions:
 * Darwin 14.3.0 Darwin Kernel Version 14.3.0 (Mac OS X)
 
 ## Requirements
-* Python 2.7
+* Python 2.7 (pip bundled in)
 * Gource
-* Scapy
 * libdnet
 
 ## Installation
@@ -24,14 +23,14 @@ It provides 3 targeted functions:
 ```
 brew install gource
 ```
-#### Scapy
-```
-pip install scapy
-```
 #### libdnet
 ```
 git clone https://github.com/dugsong/libdnet.git
 ./configure && make && make install
+```
+#### Build project
+```
+make
 ```
 
 ## Sample Commands
