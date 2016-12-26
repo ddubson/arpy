@@ -142,7 +142,7 @@ def poison():
     while True:
         try:
             scapy.send(v,verbose=0,inter=1,loop=1)
-        except KeyboardInterupt:
+        except KeyboardInterrupt:
             print(bcolours.OKBLUE + '  [Warning] Stopping...' + bcolours.ENDC)
             sys.exit(3)
 
